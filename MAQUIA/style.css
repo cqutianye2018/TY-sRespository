@@ -1,0 +1,63 @@
+@media screen and (min-width:1200px){
+	html{
+		font-size: 12px !important;
+	}
+	
+}
+@media screen and (min-width:992px) and (max-width:1199px){ 
+	html{
+		font-size: 10px !important;
+	}
+	
+}
+@media screen and (min-width:768px) and (max-width:991px){
+	html{
+		font-size: 8px !important;
+	}
+	#start{
+	    padding-top: 40px !important;
+    }
+}
+@media screen and (max-width:767px) and (min-width:576px){
+	html{
+		font-size: 6px !important;
+	}
+	#start{
+	    padding-top: 30px !important;
+    }
+}
+
+@media screen and (max-width:575px){
+	html{
+		font-size: 5px !important;
+	}
+	#start{
+		padding-top: 30px !important;
+	}
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style-type: none;
+}
+#start{
+	height: 100%;
+	width: 100%;
+    padding-top: 50px;
+}
+
+.clearfix:after{
+	content: '';
+	visibility: hidden;
+	display: block;
+	height:0;
+	clear: both;
+	overflow: hidden;
+}
